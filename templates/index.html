@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} Ana sehife {% endblock %}
+
+{% block content %}
+
+   
+<section class="home_container">
+
+    <div class="wrapper">
+        <div class="home_bg">
+            <img class="home_img" src="{{ url_for('static', filename= 'img/home_bg.jpg') }}" alt="">
+        </div>
+        <div class="ads_container">
+            <div class="for_ads">
+                <p>Reklam</p>
+                <h6>Reklaminizi yerlesdire bilersiniz</h6>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% endblock %}
